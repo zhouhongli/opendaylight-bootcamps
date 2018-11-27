@@ -1,5 +1,11 @@
+#####
+opendaylight-bootcamps/2016-01-Shenzhen/Group2/aaas/impl/src/main/yang/aaas-impl.yang
+augment"/config:modules/config:module/config:configuration" ,扩展启动配置，case+when 区分不同YANG对它的扩展；
+
+现在被blueprint代替；
+
 Our original ideas:
-  Limit traffic flood to specific destination. For example, on the Alibaba��s shopping day of 11th Nov, a flood of traffic would break down servers and waste precious bandwidth.
+  Limit traffic flood to specific destination. For example, on the Alibaba¡¯s shopping day of 11th Nov, a flood of traffic would break down servers and waste precious bandwidth.
 
   To solve this, our first idea is using randomly drop some packets or limit rate. We think these mothods can low down the server's load and Clients will still have a chance to connect to server and get service.
 
